@@ -1,0 +1,43 @@
+.p-3 {
+    padding: 1rem !important;
+}
+
+.pt-4,
+.py-4 {
+    padding-top: 1.5rem !important;
+}
+
+.pb-4,
+.py-4 {
+    padding-bottom: 1.5rem !important;
+}
+
+.flex-row {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
+
+.customer-summary-form-label {
+    width: 45%;
+}
+
+.customer-summary-form-value {
+    padding: 0.5rem;
+}
+
+.customer-summary-form {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 30px;
+    color: black;
+}
+
+.form-label {
+    padding-left: 16px;
+    margin-bottom: 4px;
+}

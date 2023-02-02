@@ -1,0 +1,30 @@
+{
+    "name": "@ivoyant/component-form-view",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "FormView",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "@ivoyant/component-loader": "^1.0.39",
+        "@ivoyant/component-message-bus": "^1.0.0"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2"
+    }
+}
